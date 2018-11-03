@@ -42,7 +42,7 @@ The configuration of the editor can be found in [CKEditor Documentation](https:/
 ```php
     'config' => [
         'lang'   => 'zh-CN',
-        'hegiht' => 500,
+        'height' => 500,
     ]
 ```
 
@@ -53,7 +53,7 @@ Use it in the form:
 $form->ckeditor('content');
 
 // Set config
-$form->ckeditor('content')->options(['lang' => 'fr', 'hegiht' => 500]);
+$form->ckeditor('content')->options(['lang' => 'fr', 'height' => 500]);
 ```
 
 ## Donate
