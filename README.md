@@ -41,7 +41,7 @@ In the `extensions` section of the `config/admin.php` file, add some configurati
 The configuration of the editor can be found in [CKEditor Documentation](https://ckeditor.com/docs/ckeditor4/latest/guide/), such as configuration language and height.
 ```php
     'config' => [
-        'lang'   => 'zh-CN',
+        'language'   => 'zh-CN',
         'height' => 500,
     ]
 ```
@@ -53,7 +53,7 @@ Use it in the form:
 $form->ckeditor('content');
 
 // Set config
-$form->ckeditor('content')->options(['lang' => 'fr', 'height' => 500]);
+$form->ckeditor('content')->options(['language' => 'fr', 'height' => 500]);
 ```
 
 ## Donate
